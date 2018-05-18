@@ -1,0 +1,308 @@
+CV fold 0 of 5 (~0% done, ETA unknown)
+Training with eta=0.010000, l2_coeff=0.010000, use_adagrad=True
+FeatureVectorizer: preallocating with 0 messages, 0 examples
+FeatureVectorizer: number of referents: 0
+CV fold 0 of 5, Iteration 0 of 10, Example 43 of 288 (~0% done, ETA Tue Jun  2 05:00:35 2015)
+CV fold 0 of 5, Iteration 0 of 10, Example 87 of 288 (~1% done, ETA Tue Jun  2 04:37:33 2015)
+CV fold 0 of 5, Iteration 0 of 10, Example 134 of 288 (~1% done, ETA Tue Jun  2 03:56:56 2015)
+CV fold 0 of 5, Iteration 0 of 10, Example 180 of 288 (~1% done, ETA Tue Jun  2 03:40:02 2015)
+CV fold 0 of 5, Iteration 0 of 10, Example 228 of 288 (~2% done, ETA Tue Jun  2 03:15:10 2015)
+CV fold 0 of 5, Iteration 0 of 10, Example 277 of 288 (~2% done, ETA Tue Jun  2 02:58:26 2015)
+Error: 382.307132
+Weight update magnitude: 0.476168
+CV fold 0 of 5, Iteration 1 of 10, Example 38 of 288 (~2% done, ETA Tue Jun  2 02:43:46 2015)
+CV fold 0 of 5, Iteration 1 of 10, Example 110 of 288 (~3% done, ETA Tue Jun  2 01:03:26 2015)
+CV fold 0 of 5, Iteration 1 of 10, Example 163 of 288 (~3% done, ETA Tue Jun  2 00:52:50 2015)
+CV fold 0 of 5, Iteration 1 of 10, Example 228 of 288 (~4% done, ETA Tue Jun  2 00:09:44 2015)
+CV fold 0 of 5, Iteration 1 of 10, Example 286 of 288 (~4% done, ETA Mon Jun  1 23:53:25 2015)
+Error: 461.667976
+Weight update magnitude: 0.056918
+CV fold 0 of 5, Iteration 2 of 10, Example 50 of 288 (~4% done, ETA Mon Jun  1 23:54:24 2015)
+CV fold 0 of 5, Iteration 2 of 10, Example 119 of 288 (~5% done, ETA Mon Jun  1 23:20:42 2015)
+CV fold 0 of 5, Iteration 2 of 10, Example 187 of 288 (~5% done, ETA Mon Jun  1 22:54:20 2015)
+CV fold 0 of 5, Iteration 2 of 10, Example 262 of 288 (~6% done, ETA Mon Jun  1 22:21:16 2015)
+Error: 534.306778
+Weight update magnitude: 0.033364
+CV fold 0 of 5, Iteration 3 of 10, Example 38 of 288 (~6% done, ETA Mon Jun  1 22:09:13 2015)
+CV fold 0 of 5, Iteration 3 of 10, Example 118 of 288 (~7% done, ETA Mon Jun  1 21:38:02 2015)
+CV fold 0 of 5, Iteration 3 of 10, Example 198 of 288 (~7% done, ETA Mon Jun  1 21:11:26 2015)
+CV fold 0 of 5, Iteration 3 of 10, Example 278 of 288 (~8% done, ETA Mon Jun  1 20:48:21 2015)
+Error: 608.621637
+Weight update magnitude: 0.024302
+CV fold 0 of 5, Iteration 4 of 10, Example 71 of 288 (~8% done, ETA Mon Jun  1 20:27:28 2015)
+CV fold 0 of 5, Iteration 4 of 10, Example 137 of 288 (~9% done, ETA Mon Jun  1 20:23:10 2015)
+CV fold 0 of 5, Iteration 4 of 10, Example 216 of 288 (~10% done, ETA Mon Jun  1 20:07:58 2015)
+Error: 680.677601
+Weight update magnitude: 0.018847
+CV fold 0 of 5, Iteration 5 of 10, Example 10 of 288 (~10% done, ETA Mon Jun  1 19:52:08 2015)
+CV fold 0 of 5, Iteration 5 of 10, Example 90 of 288 (~11% done, ETA Mon Jun  1 19:39:34 2015)
+CV fold 0 of 5, Iteration 5 of 10, Example 169 of 288 (~11% done, ETA Mon Jun  1 19:28:34 2015)
+CV fold 0 of 5, Iteration 5 of 10, Example 240 of 288 (~12% done, ETA Mon Jun  1 19:23:58 2015)
+Error: 748.538747
+Weight update magnitude: 0.015423
+CV fold 0 of 5, Iteration 6 of 10, Example 26 of 288 (~12% done, ETA Mon Jun  1 19:17:41 2015)
+CV fold 0 of 5, Iteration 6 of 10, Example 107 of 288 (~13% done, ETA Mon Jun  1 19:07:53 2015)
+CV fold 0 of 5, Iteration 6 of 10, Example 189 of 288 (~13% done, ETA Mon Jun  1 18:58:22 2015)
+CV fold 0 of 5, Iteration 6 of 10, Example 273 of 288 (~14% done, ETA Mon Jun  1 18:48:27 2015)
+Error: 817.147719
+Weight update magnitude: 0.013158
+CV fold 0 of 5, Iteration 7 of 10, Example 70 of 288 (~14% done, ETA Mon Jun  1 18:38:54 2015)
+CV fold 0 of 5, Iteration 7 of 10, Example 157 of 288 (~15% done, ETA Mon Jun  1 18:28:58 2015)
+CV fold 0 of 5, Iteration 7 of 10, Example 244 of 288 (~16% done, ETA Mon Jun  1 18:19:52 2015)
+Error: 876.020672
+Weight update magnitude: 0.011511
+CV fold 0 of 5, Iteration 8 of 10, Example 44 of 288 (~16% done, ETA Mon Jun  1 18:11:10 2015)
+CV fold 0 of 5, Iteration 8 of 10, Example 132 of 288 (~17% done, ETA Mon Jun  1 18:03:02 2015)
+CV fold 0 of 5, Iteration 8 of 10, Example 220 of 288 (~18% done, ETA Mon Jun  1 17:55:33 2015)
+Error: 931.125032
+Weight update magnitude: 0.010476
+CV fold 0 of 5, Iteration 9 of 10, Example 20 of 288 (~18% done, ETA Mon Jun  1 17:48:33 2015)
+CV fold 0 of 5, Iteration 9 of 10, Example 108 of 288 (~19% done, ETA Mon Jun  1 17:41:54 2015)
+CV fold 0 of 5, Iteration 9 of 10, Example 196 of 288 (~19% done, ETA Mon Jun  1 17:35:45 2015)
+CV fold 0 of 5, Iteration 9 of 10, Example 284 of 288 (~20% done, ETA Mon Jun  1 17:30:00 2015)
+Error: 980.513136
+Weight update magnitude: 0.009182
+accuracy: 0.139
+mean_multiset_dice: 0.635
+Training with eta=0.010000, l2_coeff=0.010000, use_adagrad=True
+FeatureVectorizer: preallocating with 0 messages, 0 examples
+FeatureVectorizer: number of referents: 0
+CV fold 1 of 5, Iteration 0 of 10, Example 72 of 288 (~21% done, ETA Mon Jun  1 17:28:41 2015)
+CV fold 1 of 5, Iteration 0 of 10, Example 159 of 288 (~21% done, ETA Mon Jun  1 17:23:33 2015)
+CV fold 1 of 5, Iteration 0 of 10, Example 246 of 288 (~22% done, ETA Mon Jun  1 17:18:43 2015)
+Error: 380.149844
+Weight update magnitude: 0.481764
+CV fold 1 of 5, Iteration 1 of 10, Example 45 of 288 (~22% done, ETA Mon Jun  1 17:14:09 2015)
+CV fold 1 of 5, Iteration 1 of 10, Example 132 of 288 (~23% done, ETA Mon Jun  1 17:09:55 2015)
+CV fold 1 of 5, Iteration 1 of 10, Example 219 of 288 (~24% done, ETA Mon Jun  1 17:05:48 2015)
+Error: 449.968640
+Weight update magnitude: 0.056061
+CV fold 1 of 5, Iteration 2 of 10, Example 19 of 288 (~24% done, ETA Mon Jun  1 17:01:46 2015)
+CV fold 1 of 5, Iteration 2 of 10, Example 107 of 288 (~25% done, ETA Mon Jun  1 16:57:58 2015)
+CV fold 1 of 5, Iteration 2 of 10, Example 195 of 288 (~25% done, ETA Mon Jun  1 16:54:22 2015)
+CV fold 1 of 5, Iteration 2 of 10, Example 282 of 288 (~26% done, ETA Mon Jun  1 16:51:00 2015)
+Error: 516.295651
+Weight update magnitude: 0.033489
+CV fold 1 of 5, Iteration 3 of 10, Example 81 of 288 (~27% done, ETA Mon Jun  1 16:47:47 2015)
+CV fold 1 of 5, Iteration 3 of 10, Example 168 of 288 (~27% done, ETA Mon Jun  1 16:44:43 2015)
+CV fold 1 of 5, Iteration 3 of 10, Example 255 of 288 (~28% done, ETA Mon Jun  1 16:41:48 2015)
+Error: 583.125546
+Weight update magnitude: 0.024745
+CV fold 1 of 5, Iteration 4 of 10, Example 54 of 288 (~28% done, ETA Mon Jun  1 16:39:02 2015)
+CV fold 1 of 5, Iteration 4 of 10, Example 141 of 288 (~29% done, ETA Mon Jun  1 16:36:19 2015)
+CV fold 1 of 5, Iteration 4 of 10, Example 229 of 288 (~30% done, ETA Mon Jun  1 16:33:40 2015)
+Error: 646.778188
+Weight update magnitude: 0.019543
+CV fold 1 of 5, Iteration 5 of 10, Example 29 of 288 (~30% done, ETA Mon Jun  1 16:31:07 2015)
+CV fold 1 of 5, Iteration 5 of 10, Example 116 of 288 (~31% done, ETA Mon Jun  1 16:28:46 2015)
+CV fold 1 of 5, Iteration 5 of 10, Example 204 of 288 (~31% done, ETA Mon Jun  1 16:26:26 2015)
+Error: 706.505434
+Weight update magnitude: 0.015586
+CV fold 1 of 5, Iteration 6 of 10, Example 4 of 288 (~32% done, ETA Mon Jun  1 16:24:11 2015)
+CV fold 1 of 5, Iteration 6 of 10, Example 91 of 288 (~33% done, ETA Mon Jun  1 16:22:03 2015)
+CV fold 1 of 5, Iteration 6 of 10, Example 179 of 288 (~33% done, ETA Mon Jun  1 16:19:58 2015)
+CV fold 1 of 5, Iteration 6 of 10, Example 266 of 288 (~34% done, ETA Mon Jun  1 16:18:00 2015)
+Error: 767.146404
+Weight update magnitude: 0.013138
+CV fold 1 of 5, Iteration 7 of 10, Example 65 of 288 (~34% done, ETA Mon Jun  1 16:16:07 2015)
+CV fold 1 of 5, Iteration 7 of 10, Example 152 of 288 (~35% done, ETA Mon Jun  1 16:14:19 2015)
+CV fold 1 of 5, Iteration 7 of 10, Example 240 of 288 (~36% done, ETA Mon Jun  1 16:12:27 2015)
+Error: 818.278652
+Weight update magnitude: 0.011452
+CV fold 1 of 5, Iteration 8 of 10, Example 40 of 288 (~36% done, ETA Mon Jun  1 16:10:38 2015)
+CV fold 1 of 5, Iteration 8 of 10, Example 128 of 288 (~37% done, ETA Mon Jun  1 16:08:54 2015)
+CV fold 1 of 5, Iteration 8 of 10, Example 215 of 288 (~37% done, ETA Mon Jun  1 16:07:25 2015)
+Error: 865.727192
+Weight update magnitude: 0.010224
+CV fold 1 of 5, Iteration 9 of 10, Example 14 of 288 (~38% done, ETA Mon Jun  1 16:05:58 2015)
+CV fold 1 of 5, Iteration 9 of 10, Example 101 of 288 (~39% done, ETA Mon Jun  1 16:04:32 2015)
+CV fold 1 of 5, Iteration 9 of 10, Example 188 of 288 (~39% done, ETA Mon Jun  1 16:03:12 2015)
+CV fold 1 of 5, Iteration 9 of 10, Example 275 of 288 (~40% done, ETA Mon Jun  1 16:01:52 2015)
+Error: 913.644713
+Weight update magnitude: 0.009313
+accuracy: 0.111
+mean_multiset_dice: 0.600
+Training with eta=0.010000, l2_coeff=0.010000, use_adagrad=True
+FeatureVectorizer: preallocating with 0 messages, 0 examples
+FeatureVectorizer: number of referents: 0
+CV fold 2 of 5, Iteration 0 of 10, Example 62 of 288 (~40% done, ETA Mon Jun  1 16:02:28 2015)
+CV fold 2 of 5, Iteration 0 of 10, Example 149 of 288 (~41% done, ETA Mon Jun  1 16:01:10 2015)
+CV fold 2 of 5, Iteration 0 of 10, Example 236 of 288 (~42% done, ETA Mon Jun  1 15:59:56 2015)
+Error: 376.288089
+Weight update magnitude: 0.476606
+CV fold 2 of 5, Iteration 1 of 10, Example 35 of 288 (~42% done, ETA Mon Jun  1 15:58:41 2015)
+CV fold 2 of 5, Iteration 1 of 10, Example 123 of 288 (~43% done, ETA Mon Jun  1 15:57:25 2015)
+CV fold 2 of 5, Iteration 1 of 10, Example 211 of 288 (~43% done, ETA Mon Jun  1 15:56:10 2015)
+Error: 443.035312
+Weight update magnitude: 0.058315
+CV fold 2 of 5, Iteration 2 of 10, Example 10 of 288 (~44% done, ETA Mon Jun  1 15:54:59 2015)
+CV fold 2 of 5, Iteration 2 of 10, Example 97 of 288 (~45% done, ETA Mon Jun  1 15:53:49 2015)
+CV fold 2 of 5, Iteration 2 of 10, Example 184 of 288 (~45% done, ETA Mon Jun  1 15:52:42 2015)
+CV fold 2 of 5, Iteration 2 of 10, Example 271 of 288 (~46% done, ETA Mon Jun  1 15:51:37 2015)
+Error: 511.359149
+Weight update magnitude: 0.033923
+CV fold 2 of 5, Iteration 3 of 10, Example 70 of 288 (~46% done, ETA Mon Jun  1 15:50:36 2015)
+CV fold 2 of 5, Iteration 3 of 10, Example 157 of 288 (~47% done, ETA Mon Jun  1 15:49:36 2015)
+CV fold 2 of 5, Iteration 3 of 10, Example 244 of 288 (~48% done, ETA Mon Jun  1 15:48:40 2015)
+Error: 580.851787
+Weight update magnitude: 0.024734
+CV fold 2 of 5, Iteration 4 of 10, Example 43 of 288 (~48% done, ETA Mon Jun  1 15:47:43 2015)
+CV fold 2 of 5, Iteration 4 of 10, Example 130 of 288 (~49% done, ETA Mon Jun  1 15:46:49 2015)
+CV fold 2 of 5, Iteration 4 of 10, Example 217 of 288 (~50% done, ETA Mon Jun  1 15:45:57 2015)
+Error: 644.728339
+Weight update magnitude: 0.019007
+CV fold 2 of 5, Iteration 5 of 10, Example 16 of 288 (~50% done, ETA Mon Jun  1 15:45:02 2015)
+CV fold 2 of 5, Iteration 5 of 10, Example 103 of 288 (~51% done, ETA Mon Jun  1 15:44:09 2015)
+CV fold 2 of 5, Iteration 5 of 10, Example 191 of 288 (~51% done, ETA Mon Jun  1 15:43:12 2015)
+CV fold 2 of 5, Iteration 5 of 10, Example 278 of 288 (~52% done, ETA Mon Jun  1 15:42:21 2015)
+Error: 702.734987
+Weight update magnitude: 0.015379
+CV fold 2 of 5, Iteration 6 of 10, Example 77 of 288 (~53% done, ETA Mon Jun  1 15:41:35 2015)
+CV fold 2 of 5, Iteration 6 of 10, Example 164 of 288 (~53% done, ETA Mon Jun  1 15:40:47 2015)
+CV fold 2 of 5, Iteration 6 of 10, Example 251 of 288 (~54% done, ETA Mon Jun  1 15:39:59 2015)
+Error: 757.948767
+Weight update magnitude: 0.013475
+CV fold 2 of 5, Iteration 7 of 10, Example 50 of 288 (~54% done, ETA Mon Jun  1 15:39:12 2015)
+CV fold 2 of 5, Iteration 7 of 10, Example 137 of 288 (~55% done, ETA Mon Jun  1 15:38:28 2015)
+CV fold 2 of 5, Iteration 7 of 10, Example 224 of 288 (~56% done, ETA Mon Jun  1 15:37:44 2015)
+Error: 811.745457
+Weight update magnitude: 0.011736
+CV fold 2 of 5, Iteration 8 of 10, Example 23 of 288 (~56% done, ETA Mon Jun  1 15:37:01 2015)
+CV fold 2 of 5, Iteration 8 of 10, Example 110 of 288 (~57% done, ETA Mon Jun  1 15:36:19 2015)
+CV fold 2 of 5, Iteration 8 of 10, Example 197 of 288 (~57% done, ETA Mon Jun  1 15:35:38 2015)
+CV fold 2 of 5, Iteration 8 of 10, Example 284 of 288 (~58% done, ETA Mon Jun  1 15:34:59 2015)
+Error: 857.454444
+Weight update magnitude: 0.010443
+CV fold 2 of 5, Iteration 9 of 10, Example 83 of 288 (~59% done, ETA Mon Jun  1 15:34:21 2015)
+CV fold 2 of 5, Iteration 9 of 10, Example 170 of 288 (~59% done, ETA Mon Jun  1 15:33:41 2015)
+CV fold 2 of 5, Iteration 9 of 10, Example 257 of 288 (~60% done, ETA Mon Jun  1 15:33:03 2015)
+Error: 897.354523
+Weight update magnitude: 0.009313
+accuracy: 0.111
+mean_multiset_dice: 0.569
+Training with eta=0.010000, l2_coeff=0.010000, use_adagrad=True
+FeatureVectorizer: preallocating with 0 messages, 0 examples
+FeatureVectorizer: number of referents: 0
+CV fold 3 of 5, Iteration 0 of 10, Example 45 of 288 (~60% done, ETA Mon Jun  1 15:33:36 2015)
+CV fold 3 of 5, Iteration 0 of 10, Example 133 of 288 (~61% done, ETA Mon Jun  1 15:32:55 2015)
+CV fold 3 of 5, Iteration 0 of 10, Example 221 of 288 (~62% done, ETA Mon Jun  1 15:32:17 2015)
+Error: 382.791994
+Weight update magnitude: 0.475574
+CV fold 3 of 5, Iteration 1 of 10, Example 21 of 288 (~62% done, ETA Mon Jun  1 15:31:40 2015)
+CV fold 3 of 5, Iteration 1 of 10, Example 109 of 288 (~63% done, ETA Mon Jun  1 15:31:02 2015)
+CV fold 3 of 5, Iteration 1 of 10, Example 197 of 288 (~63% done, ETA Mon Jun  1 15:30:26 2015)
+CV fold 3 of 5, Iteration 1 of 10, Example 285 of 288 (~64% done, ETA Mon Jun  1 15:29:50 2015)
+Error: 454.329631
+Weight update magnitude: 0.058736
+CV fold 3 of 5, Iteration 2 of 10, Example 84 of 288 (~65% done, ETA Mon Jun  1 15:29:17 2015)
+CV fold 3 of 5, Iteration 2 of 10, Example 172 of 288 (~65% done, ETA Mon Jun  1 15:28:43 2015)
+CV fold 3 of 5, Iteration 2 of 10, Example 259 of 288 (~66% done, ETA Mon Jun  1 15:28:11 2015)
+Error: 526.941092
+Weight update magnitude: 0.035065
+CV fold 3 of 5, Iteration 3 of 10, Example 58 of 288 (~66% done, ETA Mon Jun  1 15:27:40 2015)
+CV fold 3 of 5, Iteration 3 of 10, Example 145 of 288 (~67% done, ETA Mon Jun  1 15:27:09 2015)
+CV fold 3 of 5, Iteration 3 of 10, Example 232 of 288 (~68% done, ETA Mon Jun  1 15:26:39 2015)
+Error: 596.481202
+Weight update magnitude: 0.025112
+CV fold 3 of 5, Iteration 4 of 10, Example 31 of 288 (~68% done, ETA Mon Jun  1 15:26:10 2015)
+CV fold 3 of 5, Iteration 4 of 10, Example 118 of 288 (~69% done, ETA Mon Jun  1 15:25:42 2015)
+CV fold 3 of 5, Iteration 4 of 10, Example 205 of 288 (~69% done, ETA Mon Jun  1 15:25:16 2015)
+Error: 663.953534
+Weight update magnitude: 0.019105
+CV fold 3 of 5, Iteration 5 of 10, Example 4 of 288 (~70% done, ETA Mon Jun  1 15:24:48 2015)
+CV fold 3 of 5, Iteration 5 of 10, Example 91 of 288 (~71% done, ETA Mon Jun  1 15:24:20 2015)
+CV fold 3 of 5, Iteration 5 of 10, Example 179 of 288 (~71% done, ETA Mon Jun  1 15:23:51 2015)
+CV fold 3 of 5, Iteration 5 of 10, Example 267 of 288 (~72% done, ETA Mon Jun  1 15:23:20 2015)
+Error: 730.196448
+Weight update magnitude: 0.015378
+CV fold 3 of 5, Iteration 6 of 10, Example 67 of 288 (~72% done, ETA Mon Jun  1 15:22:52 2015)
+CV fold 3 of 5, Iteration 6 of 10, Example 154 of 288 (~73% done, ETA Mon Jun  1 15:22:28 2015)
+CV fold 3 of 5, Iteration 6 of 10, Example 241 of 288 (~74% done, ETA Mon Jun  1 15:22:04 2015)
+Error: 794.555800
+Weight update magnitude: 0.013456
+CV fold 3 of 5, Iteration 7 of 10, Example 40 of 288 (~74% done, ETA Mon Jun  1 15:21:40 2015)
+CV fold 3 of 5, Iteration 7 of 10, Example 128 of 288 (~75% done, ETA Mon Jun  1 15:21:13 2015)
+CV fold 3 of 5, Iteration 7 of 10, Example 215 of 288 (~75% done, ETA Mon Jun  1 15:20:53 2015)
+Error: 853.494817
+Weight update magnitude: 0.011938
+CV fold 3 of 5, Iteration 8 of 10, Example 15 of 288 (~76% done, ETA Mon Jun  1 15:20:28 2015)
+CV fold 3 of 5, Iteration 8 of 10, Example 102 of 288 (~77% done, ETA Mon Jun  1 15:20:03 2015)
+CV fold 3 of 5, Iteration 8 of 10, Example 189 of 288 (~77% done, ETA Mon Jun  1 15:19:42 2015)
+CV fold 3 of 5, Iteration 8 of 10, Example 276 of 288 (~78% done, ETA Mon Jun  1 15:19:22 2015)
+Error: 907.514474
+Weight update magnitude: 0.010546
+CV fold 3 of 5, Iteration 9 of 10, Example 75 of 288 (~79% done, ETA Mon Jun  1 15:18:59 2015)
+CV fold 3 of 5, Iteration 9 of 10, Example 163 of 288 (~79% done, ETA Mon Jun  1 15:18:34 2015)
+CV fold 3 of 5, Iteration 9 of 10, Example 251 of 288 (~80% done, ETA Mon Jun  1 15:18:10 2015)
+Error: 956.621722
+Weight update magnitude: 0.009353
+accuracy: 0.097
+mean_multiset_dice: 0.574
+Training with eta=0.010000, l2_coeff=0.010000, use_adagrad=True
+FeatureVectorizer: preallocating with 0 messages, 0 examples
+FeatureVectorizer: number of referents: 0
+CV fold 4 of 5, Iteration 0 of 10, Example 40 of 288 (~80% done, ETA Mon Jun  1 15:18:36 2015)
+CV fold 4 of 5, Iteration 0 of 10, Example 128 of 288 (~81% done, ETA Mon Jun  1 15:18:11 2015)
+CV fold 4 of 5, Iteration 0 of 10, Example 216 of 288 (~82% done, ETA Mon Jun  1 15:17:48 2015)
+Error: 393.736687
+Weight update magnitude: 0.474693
+CV fold 4 of 5, Iteration 1 of 10, Example 16 of 288 (~82% done, ETA Mon Jun  1 15:17:22 2015)
+CV fold 4 of 5, Iteration 1 of 10, Example 104 of 288 (~83% done, ETA Mon Jun  1 15:16:58 2015)
+CV fold 4 of 5, Iteration 1 of 10, Example 193 of 288 (~83% done, ETA Mon Jun  1 15:16:32 2015)
+CV fold 4 of 5, Iteration 1 of 10, Example 281 of 288 (~84% done, ETA Mon Jun  1 15:16:09 2015)
+Error: 466.917111
+Weight update magnitude: 0.058077
+CV fold 4 of 5, Iteration 2 of 10, Example 81 of 288 (~85% done, ETA Mon Jun  1 15:15:47 2015)
+CV fold 4 of 5, Iteration 2 of 10, Example 169 of 288 (~85% done, ETA Mon Jun  1 15:15:26 2015)
+CV fold 4 of 5, Iteration 2 of 10, Example 256 of 288 (~86% done, ETA Mon Jun  1 15:15:07 2015)
+Error: 543.302719
+Weight update magnitude: 0.034850
+CV fold 4 of 5, Iteration 3 of 10, Example 56 of 288 (~86% done, ETA Mon Jun  1 15:14:44 2015)
+CV fold 4 of 5, Iteration 3 of 10, Example 144 of 288 (~87% done, ETA Mon Jun  1 15:14:22 2015)
+CV fold 4 of 5, Iteration 3 of 10, Example 232 of 288 (~88% done, ETA Mon Jun  1 15:14:03 2015)
+Error: 610.914905
+Weight update magnitude: 0.024405
+CV fold 4 of 5, Iteration 4 of 10, Example 33 of 288 (~88% done, ETA Mon Jun  1 15:13:39 2015)
+CV fold 4 of 5, Iteration 4 of 10, Example 121 of 288 (~89% done, ETA Mon Jun  1 15:13:18 2015)
+CV fold 4 of 5, Iteration 4 of 10, Example 209 of 288 (~89% done, ETA Mon Jun  1 15:12:59 2015)
+Error: 680.672195
+Weight update magnitude: 0.018880
+CV fold 4 of 5, Iteration 5 of 10, Example 9 of 288 (~90% done, ETA Mon Jun  1 15:12:41 2015)
+CV fold 4 of 5, Iteration 5 of 10, Example 97 of 288 (~91% done, ETA Mon Jun  1 15:12:21 2015)
+CV fold 4 of 5, Iteration 5 of 10, Example 186 of 288 (~91% done, ETA Mon Jun  1 15:11:56 2015)
+CV fold 4 of 5, Iteration 5 of 10, Example 276 of 288 (~92% done, ETA Mon Jun  1 15:11:30 2015)
+Error: 742.107479
+Weight update magnitude: 0.015664
+CV fold 4 of 5, Iteration 6 of 10, Example 76 of 288 (~93% done, ETA Mon Jun  1 15:11:12 2015)
+CV fold 4 of 5, Iteration 6 of 10, Example 165 of 288 (~93% done, ETA Mon Jun  1 15:10:49 2015)
+CV fold 4 of 5, Iteration 6 of 10, Example 253 of 288 (~94% done, ETA Mon Jun  1 15:10:30 2015)
+Error: 800.004505
+Weight update magnitude: 0.013717
+CV fold 4 of 5, Iteration 7 of 10, Example 53 of 288 (~94% done, ETA Mon Jun  1 15:10:12 2015)
+CV fold 4 of 5, Iteration 7 of 10, Example 142 of 288 (~95% done, ETA Mon Jun  1 15:09:51 2015)
+CV fold 4 of 5, Iteration 7 of 10, Example 230 of 288 (~96% done, ETA Mon Jun  1 15:09:34 2015)
+Error: 850.902588
+Weight update magnitude: 0.011683
+CV fold 4 of 5, Iteration 8 of 10, Example 31 of 288 (~96% done, ETA Mon Jun  1 15:09:14 2015)
+CV fold 4 of 5, Iteration 8 of 10, Example 119 of 288 (~97% done, ETA Mon Jun  1 15:08:56 2015)
+CV fold 4 of 5, Iteration 8 of 10, Example 206 of 288 (~97% done, ETA Mon Jun  1 15:08:41 2015)
+Error: 894.254641
+Weight update magnitude: 0.010275
+CV fold 4 of 5, Iteration 9 of 10, Example 6 of 288 (~98% done, ETA Mon Jun  1 15:08:26 2015)
+CV fold 4 of 5, Iteration 9 of 10, Example 94 of 288 (~99% done, ETA Mon Jun  1 15:08:10 2015)
+CV fold 4 of 5, Iteration 9 of 10, Example 182 of 288 (~99% done, ETA Mon Jun  1 15:07:55 2015)
+CV fold 4 of 5, Iteration 9 of 10, Example 272 of 288 (~100% done, ETA Mon Jun  1 15:07:34 2015)
+Error: 937.106147
+Weight update magnitude: 0.009130
+accuracy: 0.139
+mean_multiset_dice: 0.613
+======================================================================
+Type: listener
+Domain: singular/people
+Features: cross_product_features
+Cross-validation folds: 5
+Learning rate: 0.01
+L2 coefs: [0.01, 0.01, 0.01, 0.01, 0.01]
+Mean iterations to convergence:  9.000 (+/- 0.000)
+Mean accuracy: 0.119 (0.099--0.140)
+Mean mean_multiset_dice: 0.598 (0.568--0.629)

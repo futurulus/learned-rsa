@@ -1,0 +1,18 @@
+{
+  "ambiguities": false,
+  "cv": 5,
+  "data_dir": "singular/furniture",
+  "features": [
+    "cross_product",
+    "attr_type",
+    "attr_count",
+    "attr_pair"
+  ],
+  "generation": true,
+  "l2_coeff": 0.01,
+  "mat_size": 2,
+  "run_dir": "/afs/cs.stanford.edu/u/wmonroe4/projects/pragmatics/languagebots/runs/306/",
+  "sgd_eta": 0.01,
+  "sgd_max_iters": 50,
+  "verbose": 1
+}

@@ -1,0 +1,125 @@
+CV fold 0 of 5 (~0% done, ETA unknown)
+Error: 383.469835
+Weight update magnitude: 1.935891
+Error: 378.989475
+Weight update magnitude: 1.846382
+Error: 380.510346
+Weight update magnitude: 1.872485
+Error: 382.233054
+Weight update magnitude: 1.920389
+Error: 375.078608
+Weight update magnitude: 1.792774
+Error: 375.798350
+Weight update magnitude: 1.805976
+Error: 376.049389
+Weight update magnitude: 1.815777
+Error: 373.063922
+Weight update magnitude: 1.759071
+Error: 371.452160
+Weight update magnitude: 1.745268
+Error: 373.585227
+Weight update magnitude: 1.788872
+Terminating after max iterations reached; error is 373.59.
+accuracy: 0.000
+CV fold 1 of 5 (~20% done, ETA Mon Oct 19 20:23:52 2015)
+Error: 374.749319
+Weight update magnitude: 1.769274
+Error: 377.679798
+Weight update magnitude: 1.816079
+Error: 374.109397
+Weight update magnitude: 1.763672
+Error: 375.853353
+Weight update magnitude: 1.813176
+Error: 370.276613
+Weight update magnitude: 1.710965
+Error: 373.167693
+Weight update magnitude: 1.778071
+Error: 375.321774
+Weight update magnitude: 1.824676
+Error: 374.088240
+Weight update magnitude: 1.823473
+Error: 374.688284
+Weight update magnitude: 1.831875
+Error: 372.019093
+Weight update magnitude: 1.798970
+Terminating after max iterations reached; error is 372.02.
+accuracy: 0.153
+CV fold 2 of 5 (~40% done, ETA Mon Oct 19 20:23:30 2015)
+Error: 376.202720
+Weight update magnitude: 1.784676
+Error: 374.991444
+Weight update magnitude: 1.770374
+Error: 375.653089
+Weight update magnitude: 1.786675
+Error: 376.550146
+Weight update magnitude: 1.821277
+Error: 377.350413
+Weight update magnitude: 1.837279
+Error: 375.273092
+Weight update magnitude: 1.823575
+Error: 372.649118
+Weight update magnitude: 1.754970
+Error: 374.173688
+Weight update magnitude: 1.804673
+Error: 369.039865
+Weight update magnitude: 1.711063
+Error: 369.037533
+Weight update magnitude: 1.727863
+Terminating after max iterations reached; error is 369.04.
+accuracy: 0.181
+CV fold 3 of 5 (~60% done, ETA Mon Oct 19 20:23:19 2015)
+Error: 379.494715
+Weight update magnitude: 1.865983
+Error: 377.048996
+Weight update magnitude: 1.785478
+Error: 376.063111
+Weight update magnitude: 1.790076
+Error: 376.983516
+Weight update magnitude: 1.803578
+Error: 374.330276
+Weight update magnitude: 1.756273
+Error: 376.765387
+Weight update magnitude: 1.811278
+Error: 374.846283
+Weight update magnitude: 1.780374
+Error: 373.154440
+Weight update magnitude: 1.739071
+Error: 377.558754
+Weight update magnitude: 1.837380
+Error: 378.240052
+Weight update magnitude: 1.854681
+Terminating after max iterations reached; error is 378.24.
+accuracy: 0.000
+CV fold 4 of 5 (~80% done, ETA Mon Oct 19 20:22:40 2015)
+Error: 378.283808
+Weight update magnitude: 1.843081
+Error: 375.428010
+Weight update magnitude: 1.770175
+Error: 376.553196
+Weight update magnitude: 1.803177
+Error: 377.254876
+Weight update magnitude: 1.817879
+Error: 375.350655
+Weight update magnitude: 1.796475
+Error: 374.949642
+Weight update magnitude: 1.785074
+Error: 377.929276
+Weight update magnitude: 1.860180
+Error: 374.281961
+Weight update magnitude: 1.797473
+Error: 380.355977
+Weight update magnitude: 1.917886
+Error: 372.986670
+Weight update magnitude: 1.797271
+Terminating after max iterations reached; error is 372.99.
+accuracy: 0.056
+CV fold 5 of 5 (~100% done, ETA Mon Oct 19 20:22:30 2015)
+======================================================================
+Type: speaker
+Domain: singular/people
+Features: features
+Cross-validation folds: 5
+Learning rate: 0.01
+L2 coefs: [0.01, 0.01, 0.01, 0.01, 0.01]
+Mean iterations to convergence:  9.000 (+/- 0.000)
+Mean accuracy: 0.078 (0.011--0.150)

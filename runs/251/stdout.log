@@ -1,0 +1,152 @@
+CV fold 0 of 5 (~0% done, ETA unknown)
+Training with eta=0.010000, l2_coeff=0.010000, use_adagrad=True
+FeatureVectorizer: preallocating with 0 messages, 0 examples
+FeatureVectorizer: number of referents: 0
+Error: 375.757019
+Weight update magnitude: 0.265783
+Error: 393.107964
+Weight update magnitude: 0.034891
+CV fold 0 of 5, Iteration 2 of 10, Example 10 of 336 (~4% done, ETA Mon Jun  1 02:44:45 2015)
+Error: 406.679954
+Weight update magnitude: 0.019957
+Error: 417.611042
+Weight update magnitude: 0.013914
+CV fold 0 of 5, Iteration 4 of 10, Example 79 of 336 (~8% done, ETA Mon Jun  1 02:39:42 2015)
+Error: 426.524585
+Weight update magnitude: 0.010723
+Error: 434.554560
+Weight update magnitude: 0.008867
+CV fold 0 of 5, Iteration 6 of 10, Example 145 of 336 (~13% done, ETA Mon Jun  1 02:38:15 2015)
+Error: 441.567080
+Weight update magnitude: 0.007492
+Error: 447.641538
+Weight update magnitude: 0.006631
+CV fold 0 of 5, Iteration 8 of 10, Example 205 of 336 (~17% done, ETA Mon Jun  1 02:37:47 2015)
+Error: 454.529390
+Weight update magnitude: 0.005868
+Error: 460.012890
+Weight update magnitude: 0.005135
+accuracy: 0.333
+mean_multiset_dice: 0.766
+Training with eta=0.010000, l2_coeff=0.010000, use_adagrad=True
+FeatureVectorizer: preallocating with 0 messages, 0 examples
+FeatureVectorizer: number of referents: 0
+CV fold 1 of 5, Iteration 0 of 10, Example 299 of 336 (~22% done, ETA Mon Jun  1 02:36:25 2015)
+Error: 373.702449
+Weight update magnitude: 0.254333
+Error: 389.405745
+Weight update magnitude: 0.033946
+Error: 403.261504
+Weight update magnitude: 0.019820
+Error: 414.725540
+Weight update magnitude: 0.014045
+CV fold 1 of 5, Iteration 4 of 10, Example 86 of 336 (~29% done, ETA Mon Jun  1 02:26:50 2015)
+Error: 424.222092
+Weight update magnitude: 0.010551
+Error: 431.931912
+Weight update magnitude: 0.008812
+Error: 440.480094
+Weight update magnitude: 0.007400
+Error: 446.302363
+Weight update magnitude: 0.006603
+CV fold 1 of 5, Iteration 8 of 10, Example 42 of 336 (~36% done, ETA Mon Jun  1 02:18:10 2015)
+Error: 452.349404
+Weight update magnitude: 0.005669
+Error: 458.023881
+Weight update magnitude: 0.005097
+accuracy: 0.202
+mean_multiset_dice: 0.672
+Training with eta=0.010000, l2_coeff=0.010000, use_adagrad=True
+FeatureVectorizer: preallocating with 0 messages, 0 examples
+FeatureVectorizer: number of referents: 0
+Error: 375.099573
+Weight update magnitude: 0.261525
+CV fold 2 of 5, Iteration 1 of 10, Example 200 of 336 (~43% done, ETA Mon Jun  1 02:14:13 2015)
+Error: 392.071441
+Weight update magnitude: 0.034387
+Error: 405.178511
+Weight update magnitude: 0.020335
+Error: 416.885841
+Weight update magnitude: 0.013878
+CV fold 2 of 5, Iteration 4 of 10, Example 335 of 336 (~50% done, ETA Mon Jun  1 02:11:37 2015)
+Error: 426.759858
+Weight update magnitude: 0.010685
+Error: 433.560188
+Weight update magnitude: 0.008715
+Error: 441.025303
+Weight update magnitude: 0.007413
+Error: 447.607461
+Weight update magnitude: 0.006474
+CV fold 2 of 5, Iteration 8 of 10, Example 162 of 336 (~57% done, ETA Mon Jun  1 02:09:22 2015)
+Error: 453.483109
+Weight update magnitude: 0.005540
+Error: 459.195989
+Weight update magnitude: 0.005126
+accuracy: 0.214
+mean_multiset_dice: 0.753
+Training with eta=0.010000, l2_coeff=0.010000, use_adagrad=True
+FeatureVectorizer: preallocating with 0 messages, 0 examples
+FeatureVectorizer: number of referents: 0
+Error: 372.387356
+Weight update magnitude: 0.267191
+CV fold 3 of 5, Iteration 1 of 10, Example 137 of 336 (~63% done, ETA Mon Jun  1 02:09:09 2015)
+Error: 388.746170
+Weight update magnitude: 0.033889
+Error: 403.277223
+Weight update magnitude: 0.019684
+Error: 413.352814
+Weight update magnitude: 0.013791
+CV fold 3 of 5, Iteration 4 of 10, Example 301 of 336 (~70% done, ETA Mon Jun  1 02:07:34 2015)
+Error: 421.931004
+Weight update magnitude: 0.010862
+Error: 429.128779
+Weight update magnitude: 0.008538
+Error: 436.125577
+Weight update magnitude: 0.007607
+Error: 442.300195
+Weight update magnitude: 0.006501
+CV fold 3 of 5, Iteration 8 of 10, Example 34 of 336 (~76% done, ETA Mon Jun  1 02:06:53 2015)
+Error: 447.010384
+Weight update magnitude: 0.005803
+Error: 452.949078
+Weight update magnitude: 0.005181
+accuracy: 0.238
+mean_multiset_dice: 0.730
+Training with eta=0.010000, l2_coeff=0.010000, use_adagrad=True
+FeatureVectorizer: preallocating with 0 messages, 0 examples
+FeatureVectorizer: number of referents: 0
+Error: 380.146583
+Weight update magnitude: 0.264317
+CV fold 4 of 5, Iteration 1 of 10, Example 8 of 336 (~82% done, ETA Mon Jun  1 02:06:54 2015)
+Error: 395.316245
+Weight update magnitude: 0.033625
+Error: 408.696642
+Weight update magnitude: 0.019673
+CV fold 4 of 5, Iteration 3 of 10, Example 237 of 336 (~87% done, ETA Mon Jun  1 02:07:24 2015)
+Error: 419.279333
+Weight update magnitude: 0.013807
+Error: 429.738171
+Weight update magnitude: 0.010847
+Error: 437.157806
+Weight update magnitude: 0.008978
+CV fold 4 of 5, Iteration 6 of 10, Example 294 of 336 (~94% done, ETA Mon Jun  1 02:06:55 2015)
+Error: 443.948387
+Weight update magnitude: 0.007479
+Error: 450.671672
+Weight update magnitude: 0.006573
+Error: 456.713686
+Weight update magnitude: 0.005830
+Error: 461.830926
+Weight update magnitude: 0.005244
+accuracy: 0.167
+mean_multiset_dice: 0.752
+======================================================================
+Type: listener
+Domain: singular/furniture
+Features: cross_product_features
+Cross-validation folds: 5
+Learning rate: 0.01
+L2 coefs: [0.01, 0.01, 0.01, 0.01, 0.01]
+Mean iterations to convergence:  9.000 (+/- 0.000)
+Mean accuracy: 0.231 (0.161--0.301)
+Mean mean_multiset_dice: 0.735 (0.693--0.776)

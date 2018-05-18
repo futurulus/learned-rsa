@@ -1,0 +1,13 @@
+{
+  "begin_time":   "Mon Oct 19 17:02:11 PDT 2015",
+  "end_time":     "Tue Oct 20 06:25:38 PDT 2015",
+  "elapsed_time": "13 hours, 23:26.217 minutes",
+  "exit_status": 0,
+
+  "host":         "jagupard8.stanford.edu",
+  "working_dir":  "/afs/cs.stanford.edu/u/wmonroe4/projects/pragmatics/languagebots_old",
+  "run_dir":      "/afs/cs.stanford.edu/u/wmonroe4/projects/pragmatics/languagebots_old/runs/4",
+  "git_rev":      "72ff78ec3a86bad4780df9195e1a9a893ce294b4",
+
+
+}

@@ -1,0 +1,13 @@
+{
+  "begin_time":   "Tue Jun 02 14:08:58 PDT 2015",
+  "end_time":     "Tue Jun 02 14:13:32 PDT 2015",
+  "elapsed_time": "04:34.725 minutes",
+  "exit_status": 0,
+
+  "host":         "john10.stanford.edu",
+  "working_dir":  "/afs/cs.stanford.edu/u/wmonroe4/projects/pragmatics/languagebots",
+  "run_dir":      "/afs/cs.stanford.edu/u/wmonroe4/projects/pragmatics/languagebots/runs/275",
+  "git_rev":      "aa7cd3ff8df4685c6f995ccb9060fb6dcdc7d1b5",
+
+
+}

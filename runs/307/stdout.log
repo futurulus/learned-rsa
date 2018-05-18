@@ -1,0 +1,525 @@
+CV fold 0 of 5 (~0% done, ETA unknown)
+Error: 396.591265
+Weight update magnitude: 2.618018
+Error: 391.913168
+Weight update magnitude: 2.350509
+Error: 392.461317
+Weight update magnitude: 2.460311
+Error: 387.684195
+Weight update magnitude: 2.465903
+Error: 389.428085
+Weight update magnitude: 2.346607
+Error: 390.030963
+Weight update magnitude: 2.402209
+Error: 389.323247
+Weight update magnitude: 2.453609
+Error: 390.326895
+Weight update magnitude: 2.427711
+Error: 388.938052
+Weight update magnitude: 2.463509
+Error: 388.534660
+Weight update magnitude: 2.475409
+Error: 379.632851
+Weight update magnitude: 2.338893
+Error: 379.494022
+Weight update magnitude: 2.335393
+Error: 392.617808
+Weight update magnitude: 2.561120
+Error: 383.032390
+Weight update magnitude: 2.421402
+Error: 374.967636
+Weight update magnitude: 2.357487
+Error: 376.251468
+Weight update magnitude: 2.301690
+Error: 380.451509
+Weight update magnitude: 2.427699
+Error: 372.507299
+Weight update magnitude: 2.317685
+Error: 378.977271
+Weight update magnitude: 2.368998
+Error: 377.468201
+Weight update magnitude: 2.407396
+Error: 370.407419
+Weight update magnitude: 2.316782
+Error: 370.383434
+Weight update magnitude: 2.291583
+Error: 373.721048
+Weight update magnitude: 2.368191
+Error: 374.753877
+Weight update magnitude: 2.374394
+Error: 377.598248
+Weight update magnitude: 2.483100
+Error: 372.456518
+Weight update magnitude: 2.432790
+Error: 370.992308
+Weight update magnitude: 2.351988
+Error: 374.729268
+Weight update magnitude: 2.407097
+Error: 371.565082
+Weight update magnitude: 2.448191
+Error: 370.098554
+Weight update magnitude: 2.292688
+Error: 380.116004
+Weight update magnitude: 2.486309
+Error: 372.182204
+Weight update magnitude: 2.402794
+Error: 373.620825
+Weight update magnitude: 2.504997
+Error: 370.396374
+Weight update magnitude: 2.437292
+Error: 372.006682
+Weight update magnitude: 2.450495
+Error: 363.809007
+Weight update magnitude: 2.326780
+Error: 367.992809
+Weight update magnitude: 2.414289
+Error: 367.570235
+Weight update magnitude: 2.400389
+Error: 364.763484
+Weight update magnitude: 2.258583
+Error: 360.753954
+Weight update magnitude: 2.286676
+Error: 366.809189
+Weight update magnitude: 2.411789
+Error: 368.351769
+Weight update magnitude: 2.409192
+Error: 368.965505
+Weight update magnitude: 2.464494
+Error: 367.567040
+Weight update magnitude: 2.436992
+Error: 361.717842
+Weight update magnitude: 2.301581
+Error: 369.346518
+Weight update magnitude: 2.465996
+Error: 364.734337
+Weight update magnitude: 2.346688
+Error: 361.016231
+Weight update magnitude: 2.414581
+Error: 363.137498
+Weight update magnitude: 2.319685
+Error: 358.206638
+Weight update magnitude: 2.337076
+Terminating after max iterations reached; error is 358.21.
+accuracy: 0.181
+CV fold 1 of 5 (~20% done, ETA Sun Jun  7 16:32:29 2015)
+Error: 398.320621
+Weight update magnitude: 2.611821
+Error: 394.953760
+Weight update magnitude: 2.443416
+Error: 389.585566
+Weight update magnitude: 2.499206
+Error: 392.108971
+Weight update magnitude: 2.407712
+Error: 389.068491
+Weight update magnitude: 2.513807
+Error: 376.647706
+Weight update magnitude: 2.310383
+Error: 384.445188
+Weight update magnitude: 2.486700
+Error: 379.198361
+Weight update magnitude: 2.306990
+Error: 382.580414
+Weight update magnitude: 2.530898
+Error: 377.633830
+Weight update magnitude: 2.292789
+Error: 375.917035
+Weight update magnitude: 2.361087
+Error: 377.712723
+Weight update magnitude: 2.450292
+Error: 368.865410
+Weight update magnitude: 2.344275
+Error: 374.952682
+Weight update magnitude: 2.433989
+Error: 375.054561
+Weight update magnitude: 2.392290
+Error: 373.033644
+Weight update magnitude: 2.383887
+Error: 362.767357
+Weight update magnitude: 2.351467
+Error: 371.512881
+Weight update magnitude: 2.396386
+Error: 360.190901
+Weight update magnitude: 2.295465
+Error: 353.417982
+Weight update magnitude: 2.121453
+Error: 361.940266
+Weight update magnitude: 2.339170
+Error: 368.551309
+Weight update magnitude: 2.512686
+Error: 361.383812
+Weight update magnitude: 2.325972
+Error: 361.797142
+Weight update magnitude: 2.373473
+Error: 347.739199
+Weight update magnitude: 2.184247
+Error: 358.443905
+Weight update magnitude: 2.425469
+Error: 352.610094
+Weight update magnitude: 2.280059
+Error: 355.344819
+Weight update magnitude: 2.377666
+Error: 352.263549
+Weight update magnitude: 2.295461
+Error: 353.307503
+Weight update magnitude: 2.343864
+Error: 358.468092
+Weight update magnitude: 2.355375
+Error: 354.360708
+Weight update magnitude: 2.340767
+Error: 347.207099
+Weight update magnitude: 2.289254
+Error: 348.193838
+Weight update magnitude: 2.304658
+Error: 345.139101
+Weight update magnitude: 2.243052
+Error: 344.882143
+Weight update magnitude: 2.312553
+Error: 345.096739
+Weight update magnitude: 2.354354
+Error: 350.166735
+Weight update magnitude: 2.426466
+Error: 356.631254
+Weight update magnitude: 2.465979
+Error: 351.179091
+Weight update magnitude: 2.348969
+Error: 337.426636
+Weight update magnitude: 2.286042
+Error: 345.102007
+Weight update magnitude: 2.343659
+Error: 344.053052
+Weight update magnitude: 2.369558
+Error: 349.254661
+Weight update magnitude: 2.355569
+Error: 334.397426
+Weight update magnitude: 2.204640
+Error: 338.110122
+Weight update magnitude: 2.297549
+Error: 349.952763
+Weight update magnitude: 2.529673
+Error: 349.663586
+Weight update magnitude: 2.406673
+Error: 339.291989
+Weight update magnitude: 2.345753
+Error: 340.257013
+Weight update magnitude: 2.318656
+Terminating after max iterations reached; error is 340.26.
+accuracy: 0.194
+CV fold 2 of 5 (~40% done, ETA Sun Jun  7 16:29:49 2015)
+Error: 393.519384
+Weight update magnitude: 2.551412
+Error: 393.577148
+Weight update magnitude: 2.432213
+Error: 391.305390
+Weight update magnitude: 2.491909
+Error: 382.171167
+Weight update magnitude: 2.306592
+Error: 388.479134
+Weight update magnitude: 2.459806
+Error: 384.614785
+Weight update magnitude: 2.438999
+Error: 381.408495
+Weight update magnitude: 2.374494
+Error: 373.054832
+Weight update magnitude: 2.344678
+Error: 377.123259
+Weight update magnitude: 2.393288
+Error: 373.713954
+Weight update magnitude: 2.326282
+Error: 371.232188
+Weight update magnitude: 2.324678
+Error: 373.724031
+Weight update magnitude: 2.311484
+Error: 370.631355
+Weight update magnitude: 2.360279
+Error: 371.765539
+Weight update magnitude: 2.280982
+Error: 372.732371
+Weight update magnitude: 2.449086
+Error: 362.274190
+Weight update magnitude: 2.313966
+Error: 368.170009
+Weight update magnitude: 2.369779
+Error: 360.312155
+Weight update magnitude: 2.269465
+Error: 362.499906
+Weight update magnitude: 2.351270
+Error: 361.881235
+Weight update magnitude: 2.367270
+Error: 361.150786
+Weight update magnitude: 2.351270
+Error: 363.567437
+Weight update magnitude: 2.367176
+Error: 360.555992
+Weight update magnitude: 2.317671
+Error: 355.836916
+Weight update magnitude: 2.299863
+Error: 356.096669
+Weight update magnitude: 2.303464
+Error: 350.817749
+Weight update magnitude: 2.289955
+Error: 359.395280
+Weight update magnitude: 2.343973
+Error: 355.949746
+Weight update magnitude: 2.442067
+Error: 351.690706
+Weight update magnitude: 2.338160
+Error: 352.163422
+Weight update magnitude: 2.221062
+Error: 350.427299
+Weight update magnitude: 2.257160
+Error: 345.696867
+Weight update magnitude: 2.284451
+Error: 354.118566
+Weight update magnitude: 2.345171
+Error: 346.659277
+Weight update magnitude: 2.278255
+Error: 351.758424
+Weight update magnitude: 2.361766
+Error: 349.578531
+Weight update magnitude: 2.336862
+Error: 349.326062
+Weight update magnitude: 2.345663
+Error: 348.173338
+Weight update magnitude: 2.313262
+Error: 348.501146
+Weight update magnitude: 2.304463
+Error: 350.848563
+Weight update magnitude: 2.390268
+Error: 345.534977
+Weight update magnitude: 2.292761
+Error: 345.005302
+Weight update magnitude: 2.412458
+Error: 339.766769
+Weight update magnitude: 2.189049
+Error: 339.932035
+Weight update magnitude: 2.325150
+Error: 357.410497
+Weight update magnitude: 2.474285
+Error: 349.483091
+Weight update magnitude: 2.393571
+Error: 342.042501
+Weight update magnitude: 2.307556
+Error: 349.125431
+Weight update magnitude: 2.455271
+Error: 345.681827
+Weight update magnitude: 2.472567
+Error: 338.612883
+Weight update magnitude: 2.301553
+Terminating after max iterations reached; error is 338.61.
+accuracy: 0.222
+CV fold 3 of 5 (~60% done, ETA Sun Jun  7 16:29:22 2015)
+Error: 396.798857
+Weight update magnitude: 2.574218
+Error: 392.329835
+Weight update magnitude: 2.379010
+Error: 397.080781
+Weight update magnitude: 2.453620
+Error: 389.633012
+Weight update magnitude: 2.356406
+Error: 397.925058
+Weight update magnitude: 2.424123
+Error: 391.676130
+Weight update magnitude: 2.373311
+Error: 398.505197
+Weight update magnitude: 2.551926
+Error: 389.902087
+Weight update magnitude: 2.384709
+Error: 384.439866
+Weight update magnitude: 2.258199
+Error: 395.286588
+Weight update magnitude: 2.443521
+Error: 390.693074
+Weight update magnitude: 2.478513
+Error: 389.044939
+Weight update magnitude: 2.393110
+Error: 386.285461
+Weight update magnitude: 2.325005
+Error: 392.785759
+Weight update magnitude: 2.456319
+Error: 386.741651
+Weight update magnitude: 2.413307
+Error: 385.611629
+Weight update magnitude: 2.380506
+Error: 389.782511
+Weight update magnitude: 2.435714
+Error: 380.514508
+Weight update magnitude: 2.243797
+Error: 385.395167
+Weight update magnitude: 2.405107
+Error: 385.209388
+Weight update magnitude: 2.342707
+Error: 380.502014
+Weight update magnitude: 2.396798
+Error: 390.897685
+Weight update magnitude: 2.472720
+Error: 382.835081
+Weight update magnitude: 2.351904
+Error: 380.902985
+Weight update magnitude: 2.385701
+Error: 389.441918
+Weight update magnitude: 2.402618
+Error: 378.517494
+Weight update magnitude: 2.313197
+Error: 379.329257
+Weight update magnitude: 2.354899
+Error: 388.684278
+Weight update magnitude: 2.465418
+Error: 378.495374
+Weight update magnitude: 2.378398
+Error: 382.494932
+Weight update magnitude: 2.427407
+Error: 384.289684
+Weight update magnitude: 2.330311
+Error: 376.685630
+Weight update magnitude: 2.353396
+Error: 379.761002
+Weight update magnitude: 2.335202
+Error: 383.831835
+Weight update magnitude: 2.402111
+Error: 373.990467
+Weight update magnitude: 2.236992
+Error: 384.138787
+Weight update magnitude: 2.450412
+Error: 387.454532
+Weight update magnitude: 2.430919
+Error: 382.436182
+Weight update magnitude: 2.392209
+Error: 382.374373
+Weight update magnitude: 2.356910
+Error: 379.326928
+Weight update magnitude: 2.305003
+Error: 378.273410
+Weight update magnitude: 2.365402
+Error: 377.570097
+Weight update magnitude: 2.323700
+Error: 373.945361
+Weight update magnitude: 2.381694
+Error: 378.888479
+Weight update magnitude: 2.469604
+Error: 375.120031
+Weight update magnitude: 2.329897
+Error: 381.633895
+Weight update magnitude: 2.372210
+Error: 373.959079
+Weight update magnitude: 2.292895
+Error: 375.955405
+Weight update magnitude: 2.336800
+Error: 378.211298
+Weight update magnitude: 2.358905
+Error: 379.956231
+Weight update magnitude: 2.361908
+Terminating after max iterations reached; error is 379.96.
+accuracy: 0.069
+CV fold 4 of 5 (~80% done, ETA Sun Jun  7 16:29:28 2015)
+Error: 396.518845
+Weight update magnitude: 2.620218
+Error: 396.846250
+Weight update magnitude: 2.491419
+Error: 400.447963
+Weight update magnitude: 2.582927
+Error: 387.168609
+Weight update magnitude: 2.415602
+Error: 389.920921
+Weight update magnitude: 2.381808
+Error: 392.915785
+Weight update magnitude: 2.465415
+Error: 390.565074
+Weight update magnitude: 2.453811
+Error: 384.431398
+Weight update magnitude: 2.453200
+Error: 379.423504
+Weight update magnitude: 2.321591
+Error: 380.879669
+Weight update magnitude: 2.326395
+Error: 377.817126
+Weight update magnitude: 2.318989
+Error: 377.122649
+Weight update magnitude: 2.285589
+Error: 383.458051
+Weight update magnitude: 2.418402
+Error: 384.766098
+Weight update magnitude: 2.467706
+Error: 380.642419
+Weight update magnitude: 2.417098
+Error: 370.796690
+Weight update magnitude: 2.251580
+Error: 376.522434
+Weight update magnitude: 2.360692
+Error: 380.861563
+Weight update magnitude: 2.467501
+Error: 373.470055
+Weight update magnitude: 2.366088
+Error: 370.644565
+Weight update magnitude: 2.376983
+Error: 372.943312
+Weight update magnitude: 2.393189
+Error: 372.811641
+Weight update magnitude: 2.383689
+Error: 373.284029
+Weight update magnitude: 2.444891
+Error: 371.173665
+Weight update magnitude: 2.422688
+Error: 372.134913
+Weight update magnitude: 2.394190
+Error: 367.497093
+Weight update magnitude: 2.381682
+Error: 370.753425
+Weight update magnitude: 2.429790
+Error: 370.567604
+Weight update magnitude: 2.347390
+Error: 369.231878
+Weight update magnitude: 2.345888
+Error: 365.381016
+Weight update magnitude: 2.417181
+Error: 364.960357
+Weight update magnitude: 2.295081
+Error: 367.080153
+Weight update magnitude: 2.429586
+Error: 365.688078
+Weight update magnitude: 2.421584
+Error: 359.983647
+Weight update magnitude: 2.406774
+Error: 365.738539
+Weight update magnitude: 2.341986
+Error: 360.636526
+Weight update magnitude: 2.355576
+Error: 365.695970
+Weight update magnitude: 2.381687
+Error: 353.833814
+Weight update magnitude: 2.259864
+Error: 371.178908
+Weight update magnitude: 2.430399
+Error: 357.343167
+Weight update magnitude: 2.274872
+Error: 360.247359
+Weight update magnitude: 2.349378
+Error: 364.499705
+Weight update magnitude: 2.376988
+Error: 362.646790
+Weight update magnitude: 2.366285
+Error: 363.063964
+Weight update magnitude: 2.390985
+Error: 358.640482
+Weight update magnitude: 2.425077
+Error: 370.882730
+Weight update magnitude: 2.547603
+Error: 360.681096
+Weight update magnitude: 2.288183
+Error: 361.131786
+Weight update magnitude: 2.357784
+Error: 354.445683
+Weight update magnitude: 2.375471
+Error: 356.878429
+Weight update magnitude: 2.340677
+Terminating after max iterations reached; error is 356.88.
+accuracy: 0.222
+CV fold 5 of 5 (~100% done, ETA Sun Jun  7 16:29:17 2015)
+======================================================================
+Type: speaker
+Domain: singular/people
+Features: features
+Cross-validation folds: 5
+Learning rate: 0.01
+L2 coefs: [0.01, 0.01, 0.01, 0.01, 0.01]
+Mean iterations to convergence:  49.000 (+/- 0.000)
+Mean accuracy: 0.178 (0.108--0.248)

@@ -1,0 +1,120 @@
+CV fold 0 of 5 (~0% done, ETA unknown)
+Error: 374.009014
+Weight update magnitude: 0.771676
+Error: 372.057716
+Weight update magnitude: 0.724072
+Error: 371.756495
+Weight update magnitude: 0.722972
+Error: 372.224036
+Weight update magnitude: 0.732273
+Error: 372.970710
+Weight update magnitude: 0.753174
+Error: 373.004823
+Weight update magnitude: 0.753774
+Error: 372.068303
+Weight update magnitude: 0.742572
+Error: 372.835709
+Weight update magnitude: 0.754374
+Error: 371.945146
+Weight update magnitude: 0.742772
+Error: 372.927013
+Weight update magnitude: 0.764474
+Terminating after max iterations reached; error is 372.93.
+accuracy: 0.000
+Error: 372.079016
+Weight update magnitude: 0.736172
+Error: 372.812494
+Weight update magnitude: 0.737674
+Error: 371.740814
+Weight update magnitude: 0.729072
+Error: 372.512873
+Weight update magnitude: 0.749073
+Error: 370.289688
+Weight update magnitude: 0.703769
+Error: 371.708323
+Weight update magnitude: 0.739272
+Error: 370.759162
+Weight update magnitude: 0.732970
+Error: 370.926394
+Weight update magnitude: 0.725370
+Error: 370.704154
+Weight update magnitude: 0.728170
+Error: 369.847734
+Weight update magnitude: 0.716968
+Terminating after max iterations reached; error is 369.85.
+accuracy: 0.036
+Error: 372.515868
+Weight update magnitude: 0.743473
+Error: 371.704964
+Weight update magnitude: 0.723171
+Error: 372.879709
+Weight update magnitude: 0.752174
+Error: 372.211370
+Weight update magnitude: 0.743873
+Error: 370.608625
+Weight update magnitude: 0.720769
+Error: 371.743433
+Weight update magnitude: 0.746072
+Error: 371.421338
+Weight update magnitude: 0.745071
+Error: 370.645040
+Weight update magnitude: 0.739170
+Error: 370.989834
+Weight update magnitude: 0.746771
+Error: 371.198576
+Weight update magnitude: 0.756571
+Terminating after max iterations reached; error is 371.20.
+accuracy: 0.048
+Error: 372.048963
+Weight update magnitude: 0.728772
+Error: 371.956066
+Weight update magnitude: 0.730572
+Error: 372.154567
+Weight update magnitude: 0.732072
+Error: 372.541397
+Weight update magnitude: 0.746173
+Error: 371.714332
+Weight update magnitude: 0.732972
+Error: 371.033581
+Weight update magnitude: 0.731170
+Error: 371.666685
+Weight update magnitude: 0.737272
+Error: 370.979971
+Weight update magnitude: 0.732470
+Error: 371.365448
+Weight update magnitude: 0.741571
+Error: 370.214811
+Weight update magnitude: 0.720869
+Terminating after max iterations reached; error is 370.21.
+accuracy: 0.107
+Error: 371.482535
+Weight update magnitude: 0.726371
+Error: 372.991324
+Weight update magnitude: 0.742974
+Error: 371.672666
+Weight update magnitude: 0.731471
+Error: 371.680865
+Weight update magnitude: 0.734771
+Error: 371.177210
+Weight update magnitude: 0.735171
+Error: 372.280355
+Weight update magnitude: 0.756973
+Error: 371.243449
+Weight update magnitude: 0.752071
+Error: 370.788198
+Weight update magnitude: 0.738470
+Error: 369.989306
+Weight update magnitude: 0.738069
+Error: 369.765631
+Weight update magnitude: 0.727768
+Terminating after max iterations reached; error is 369.77.
+accuracy: 0.060
+======================================================================
+Type: speaker
+Domain: singular/furniture
+Features: features
+Cross-validation folds: 5
+Learning rate: 0.01
+L2 coefs: [0.01, 0.01, 0.01, 0.01, 0.01]
+Mean iterations to convergence:  9.000 (+/- 0.000)
+Mean accuracy: 0.050 (0.019--0.081)

@@ -1,0 +1,22 @@
+{
+  "ambiguities": false,
+  "artificial": false,
+  "cache_featurizations": true,
+  "cv": 5,
+  "data_dir": "singular/people",
+  "generation": true,
+  "l2_coeff": 0.01,
+  "literal": false,
+  "mat_size": 2,
+  "max_gen_length": 4,
+  "null_message": true,
+  "only_relevant_alts": false,
+  "run_dir": "/afs/cs.stanford.edu/u/wmonroe4/projects/pragmatics/languagebots/runs/252/",
+  "samples_x": 10,
+  "samples_y": null,
+  "sgd_eta": 0.01,
+  "sgd_max_iters": 10,
+  "sgd_use_adagrad": true,
+  "train_percentage": null,
+  "verbose": 1
+}
