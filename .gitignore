@@ -5,3 +5,10 @@ __pycache__
 *.pyc
 .coverage
 coverage_report/
+.ipynb_checkpoints
+*.aux
+*.rel
+*.gz
+*.blg
+*.bbl
+.DS_Store
