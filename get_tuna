@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+curl -O http://www.abdn.ac.uk/ncs/documents/corpus.zip
+unzip corpus.zip
+mv dist ../TUNA

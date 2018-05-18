@@ -1,0 +1,27 @@
+#!/bin/bash
+exec /u/nlp/packages/scala/scala-2.11.0/bin/scala -cp /u/nlp/packages/qry/lib/qry.jar:$JAVANLP_HOME/projects/core/classes:$JAVANLP_HOME/projects/more/classes:$JAVANLP_HOME/projects/more/lib/typesafe-config-1.0.0.jar:$JAVANLP_HOME/projects/research/classes "$0" "$@"
+!#
+import Qry._  // Qry Core
+import Stanford._  // Utilities for Stanford
+
+//using("runs/")
+
+submit(('python
+  -'u
+  ->"sgd_lsl.py"
+//  -("-run_dir", touch(""))
+  -("-data_dir", "singular/furniture")
+//  -("-filter_loc", "false")
+  -("-generation", "true")
+  -("-features")
+  ->("cross_product", "attr_type", "attr_count", "attr_pair")
+  -("-sgd_eta", 0.1)
+  -("-cv", 2)
+  -("-sgd_max_iters", 2)
+  -("-l2_coeff", 0.01)
+  -("-verbose", 1)
+  -("-sgd_use_adagrad", "true")
+  -("-samples_x", 2)
+  -("-only_relevant_alts", "false")
+  -("-null_message", "true")
+))

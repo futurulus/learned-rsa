@@ -1,0 +1,156 @@
+#!/bin/bash
+exec /u/nlp/packages/scala/scala-2.11.0/bin/scala -cp /u/nlp/packages/qry/lib/qry.jar:$JAVANLP_HOME/projects/core/classes:$JAVANLP_HOME/projects/more/classes:$JAVANLP_HOME/projects/more/lib/typesafe-config-1.0.0.jar:$JAVANLP_HOME/projects/research/classes "$0" "$@"
+!#
+import Qry._  // Qry Core
+import Stanford._  // Utilities for Stanford
+
+/*
+ * A sample run script using Qry. See the comments below for configurable
+ * options.
+ *
+ * This script will run the CoreNLP interactively.
+ *
+ * @author Gabor Angeli
+ */
+
+
+/* ~~ RUN DIRECTORY ~~
+ * Every run would get a directory in this top level directory.
+ * This is useful for managing experiments / keeping track of logs.
+ *
+ * Each run directory will minimally have two files, automatically generated:
+ *   * _rerun.sh: A script to rerun this job, with the same command line flags
+ *   * _qry.json: Our best guess as to the results of this job, matching a simple
+ *                common regex for how results are output.
+ *
+ * For PBS jobs, it'll also contain:
+ *   * _stdout.log:     The standard out of your program.
+ *   * _stderr.log:     The standard err of your program.
+ *   * _pbs.bash:       The script that was actually run by PBS for this job
+ *   * _stdout_pbs.log: The standard out of _pbs.bash. This should be empty,
+ *                      but can be useful for debugging PBS issues.
+ *   * _stderr_pbs.log: The standard err of _pbs.bash. This usually contains
+ *                      some nonsense, and can be useful for debugging PBS.
+ *   * _pbs.log:        Information on when/where the job was started/completed.
+ *
+ * Lastly, you can pass this directory in as a command line argument with
+ * the function `touch("/subpath/in/run/directory")`. So, for example, you can
+ * set a log directory with:
+ *
+ *   -("log.dir", touch("log"))
+ */
+using("runs/")
+
+
+/* ~~ PBS ~~
+ * If the following is uncommented, run this job on PBS rather than
+ * locally. For this to work, you must be logged into scail.
+ * The PBS options can be configured below.
+ */
+//using("pbs")
+
+/* Configure PBS. These are only relevant if `using("pbs")` is set above */
+PBS.name     = main.substring(main.lastIndexOf(".") + 1).replace(" ", "_")
+PBS.queue    = Queue.NLP  // {SCAIL, NLP, JAG, JOHN}; or you can set it as a string with `PBS.queue = "nlp"`
+PBS.priority = Priority.NORMAL  // {HIGH, NORMAL, BACKGROUND, PREEMPTABLE }
+PBS.cores    = 1
+PBS.memory   = memory  // For Java jobs, memory is also auto detected
+//PBS.hosts   = "jude0,jude1"  // An optional list of hosts to run on.
+
+
+/* ~~ CONFIGURE JAVA ~~
+ * This is just a helper for all the boilerplate of configuring Java and
+ * you Java classpath.
+ */
+val java:List[String] = ("java"
+  -('cp, List(cp, JAVANLP, JAVANLP_LIBS).mkString(":"))
+	-("Xmx" + memory.replaceAll("b$",""))
+	-"Xss16m"
+  -"XX:MaxPermSize=64M"
+	-'server
+  -'ea
+  ->guessClassOrElse(args, main)).toList  // Tries to guess the main class from the command line arguments too
+
+/* ~~ TYPESAFE CONFIG  ~~
+ * You can optionally import command line flags from a typesafe config (HOCON)
+ * file (see https://github.com/typesafehub/config). Each property from the
+ * file is passed in as a command line flag.
+ */
+//using(getConfigOr(args, "/path/to/typesafe/config.conf"))  // tries to guess the config path from the command line arguments too
+
+
+/* ~~ YOUR PROGRAM ~~
+ * Basic syntax:
+ *   -(key, value)      sets the command line flag -key value
+ *   ->value            sets the command line argument value (no flag)
+ *   -(key, op1 | op2)  sets op1 as the default value, but also runs with op2 (and all other default values)
+ *   -(key, op1 & op2)  runs with both -key op1 and -key op2
+ *
+ * So:
+ *   -(a, a1 | a2) -(b, b1 | b2) will run three options:
+ *     will run: `-a a1 -b b1`  and  `-a a2 -b b1`  and  `-a a1 -b b2`
+ *     but not:  `-a a2 -b b2`
+ *   -(a, a1 & a2) -(b, b1 & b2) will run all four options:
+ *     will run: `-a a1 -b b1`  and  `-a a2 -b b1`  and  `-a a1 -b b2`  and  `-a a2 -b b2`
+ *
+ *
+ */
+
+/* For configuring Java. If you get rid of these, update `val java` and `PBS.memory` above. */
+def memory = "2gb"  // The memory for your Java job
+def main = "edu.stanford.nlp.pipeline.StanfordCoreNLP"  // The Java main class
+def cp = ""  // Additional (non-JavaNLP) classpath for your run
+
+/*
+ * Parallelism. Uncomment me to run your jobs in parallel.
+ * If PBS is enabled, it will limit the number of jobs on the PBS queue at any given time.
+ */
+//parallel(32)
+
+/*
+ * Submit program
+ *
+submit(('python
+  -'u
+  ->"sgd_lsl.py"
+  -("-run_dir", touch(""))
+  -("-data_dir", "singular/furniture" &
+                 "singular/people" &
+                 "plural/furniture" &
+                 "plural/people")
+  -("-evaluate_reps", 10)
+  -("-sgd_eta", 0.1 | 0.01 | 1.0)
+  -("-train_percentage", 0.8)
+  -("-sgd_max_iters", 50)
+  -("-l2_coeff", 0.01 | 0.0 | 0.1 | 1.0)
+))
+*/
+
+parallel(32)
+
+submit(('python
+  -'u
+  ->"sgd_lsl.py"
+  -("-run_dir", touch(""))
+  -("-data_dir", "singular/furniture" &
+                 "singular/people" /*&
+                 "plural/furniture" &
+                 "plural/people"*/)
+//  -("-filter_loc", "true" & "false")
+  -("-generation", "true")
+  -("-features")
+  ->("cross_product", "attr_type", "attr_count", "attr_pair")
+  -("-max_gen_length", 4)
+  -("-sgd_eta", 0.01)
+  -("-cv", 10)
+  -("-random_splits", "true")
+  -("-train_percentage", 0.7)
+  -("-sgd_max_iters", 10)
+  -("-l2_coeff", 0.01)
+  -("-sgd_use_adagrad", "true")
+  -("-samples_x", 10)
+  -("-null_message", "true")
+  -("-only_relevant_alts", "false")
+  -("-verbose", 1)
+))
+//) * n)  // Replace the above line with me to run the same job $n$ times

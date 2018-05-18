@@ -1,0 +1,17 @@
+#!/bin/bash
+exec /u/nlp/packages/scala/scala-2.11.0/bin/scala -cp /u/nlp/packages/qry/lib/qry.jar:$JAVANLP_HOME/projects/core/classes:$JAVANLP_HOME/projects/more/classes:$JAVANLP_HOME/projects/more/lib/typesafe-config-1.0.0.jar:$JAVANLP_HOME/projects/research/classes "$0" "$@"
+!#
+import Qry._  // Qry Core
+import Stanford._  // Utilities for Stanford
+
+using("runs/")
+
+parallel(8)
+
+submit(('python
+  -'u
+  ->"artificialdata.py"
+  -("-run_dir", touch(""))
+  -("-mat_size", "2" & "3" & "4")
+  -("-ambiguities", "true" & "false")
+))

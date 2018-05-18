@@ -1,0 +1,7 @@
+.cache/
+activate
+activate_py2
+__pycache__
+*.pyc
+.coverage
+coverage_report/

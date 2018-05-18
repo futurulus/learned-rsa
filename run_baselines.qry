@@ -1,0 +1,85 @@
+#!/bin/bash
+exec /u/nlp/packages/scala/scala-2.11.0/bin/scala -cp /u/nlp/packages/qry/lib/qry.jar:$JAVANLP_HOME/projects/core/classes:$JAVANLP_HOME/projects/more/classes:$JAVANLP_HOME/projects/more/lib/typesafe-config-1.0.0.jar:$JAVANLP_HOME/projects/research/classes "$0" "$@"
+!#
+import Qry._  // Qry Core
+import Stanford._  // Utilities for Stanford
+
+/* ~~ RUN DIRECTORY ~~ */
+using("runs/")
+
+
+/* ~~ PBS ~~
+ * If the following is uncommented, run this job on PBS rather than
+ * locally. For this to work, you must be logged into scail.
+ * The PBS options can be configured below.
+ */
+//using("pbs")
+
+/* Configure PBS. These are only relevant if `using("pbs")` is set above */
+PBS.name     = main.substring(main.lastIndexOf(".") + 1).replace(" ", "_")
+PBS.queue    = Queue.NLP  // {SCAIL, NLP, JAG, JOHN}; or you can set it as a string with `PBS.queue = "nlp"`
+PBS.priority = Priority.NORMAL  // {HIGH, NORMAL, BACKGROUND, PREEMPTABLE }
+PBS.cores    = 1
+PBS.memory   = memory  // For Java jobs, memory is also auto detected
+//PBS.hosts   = "jude0,jude1"  // An optional list of hosts to run on.
+
+
+/* ~~ TYPESAFE CONFIG  ~~
+ * You can optionally import command line flags from a typesafe config (HOCON)
+ * file (see https://github.com/typesafehub/config). Each property from the
+ * file is passed in as a command line flag.
+ */
+//using(getConfigOr(args, "/path/to/typesafe/config.conf"))  // tries to guess the config path from the command line arguments too
+
+
+/* ~~ YOUR PROGRAM ~~
+ * Basic syntax:
+ *   -(key, value)      sets the command line flag -key value
+ *   ->value            sets the command line argument value (no flag)
+ *   -(key, op1 | op2)  sets op1 as the default value, but also runs with op2 (and all other default values)
+ *   -(key, op1 & op2)  runs with both -key op1 and -key op2
+ *
+ * So:
+ *   -(a, a1 | a2) -(b, b1 | b2) will run three options:
+ *     will run: `-a a1 -b b1`  and  `-a a2 -b b1`  and  `-a a1 -b b2`
+ *     but not:  `-a a2 -b b2`
+ *   -(a, a1 & a2) -(b, b1 & b2) will run all four options:
+ *     will run: `-a a1 -b b1`  and  `-a a2 -b b1`  and  `-a a1 -b b2`  and  `-a a2 -b b2`
+ *
+ *
+ */
+
+/* For configuring Java. If you get rid of these, update `val java` and `PBS.memory` above. */
+def memory = "2gb"  // The memory for your Java job
+def main = "edu.stanford.nlp.pipeline.StanfordCoreNLP"  // The Java main class
+def cp = ""  // Additional (non-JavaNLP) classpath for your run
+
+/*
+ * Parallelism. Uncomment me to run your jobs in parallel.
+ * If PBS is enabled, it will limit the number of jobs on the PBS queue at any given time.
+ */
+parallel(8)
+
+/*
+ * Submit program
+ */
+submit(('python
+  -'u
+  ->"sgd_literal_listener.py"
+  -("-run_dir", touch(""))
+  -("-data_dir", "singular/furniture" &
+                 "singular/people" /*&
+                 "plural/furniture" &
+                 "plural/people"*/)
+  -("-l2_coeff", 0.01)
+  -("-sgd_eta", 0.01)
+  -("-generation", "true")
+  -("-cv", 10)
+  -("-random_splits", "true")
+  -("-train_percentage", 0.7)
+  -("-verbose", 1)
+))
+//) * n)  // Replace the above line with me to run the same job $n$ times
+
+
+
