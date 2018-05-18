@@ -1,17 +1,16 @@
 Code for Learning in the Rational Speech Acts Model
 ===================================================
 
-Will Monroe, Christopher Potts
-26 July 2016
+This repository contains code and models for the paper [Learning the Rational Speech Acts Model (Monroe and Potts, Amsterdam Colloquium 2015)](http://nlp.stanford.edu/pubs/monroe2015learning.pdf).
 
 You'll first need Python 2.7 with NumPy, as well as the TUNA corpus:
 
-./get_tuna
+    ./get_tuna
 
 To run the main model presented in the paper (last line of Table 1):
 
-bash ./runs/308/_rerun.sh  # furniture
-bash ./runs/309/_rerun.sh  # people
+    bash ./runs/308/_rerun.sh  # furniture
+    bash ./runs/309/_rerun.sh  # people
 
 Check out the above shell scripts for the full command that runs the program
 with tunable options.
@@ -19,7 +18,6 @@ with tunable options.
 Each of the "learned" models in Table 1 can be rerun with a similar command,
 replacing the number in the run directory:
 
-|------------|---------|------|
 |Model       |Furniture|People|
 |------------|---------|------|
 |S0 basic    |     275 |  276 |
@@ -29,9 +27,8 @@ replacing the number in the run directory:
 |S1 basic    |     251 |  252 |
 |S1 gen      |       3 |    4 |
 |S1 basic+gen|     308 |  309 |
-|------------|---------|------|
 
 Be prepared to wait a while for the models to finish! 2 days is normal for the
-S1 models; the S0 ones should be faster. (Replicating results is great, but if
-you'd rather not wait, see stdout.log in each run directory for the output of
-my own run of the program.)
+S1 models (on 2016 hardware); the S0 ones should be faster. (Replicating
+results is great, but if you'd rather not wait, see stdout.log in each run
+directory for the output of my own run of the program.)
